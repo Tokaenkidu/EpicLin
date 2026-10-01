@@ -1,33 +1,47 @@
-# 🚀 EpicLin: The Future of Linux Media is Here
+# 🎵 EpicLin — AiconicPlayer for Linux (38-day trial)
 
-**EpicLin** is not just another media player. It is a revolutionary, brand-new **IconicPlayer for Linux**, designed from the ground up to shatter the mold of boring, outdated software. Get ready for an experience that is as visually stunning as it is powerful.
+**Made by [EpicWebDesignStudio](https://www.epicwebdesignstudio.com)** · A music player that is fun to look at: neon skins, a living oscillator, a little animated kitten — and a real audio engine under the hood.
 
-## ✨ Why EpicLin is a Game-Changer
+This repository hosts the **free 38-day trial of AiconicPlayer PremiumUltra+** for Linux, Windows and Android. Downloads are in **[Releases](../../releases)**.
 
-We believe that using Linux should be exciting, not a chore. EpicLin is built on a foundation of innovation, bringing you features that redefine what a media player can be.
+## ✨ What you get (full PremiumUltra+ for 38 days)
 
-### 🎨 The Aura Engine
-At the heart of EpicLin lies our proprietary **Aura Engine**. This specially designed core is engineered for one thing: **pure, unadulterated performance and beauty**. The Aura Engine ensures:
-*   **Buttery-smooth playback** of even the most demanding formats.
-*   **Zero lag** and ultra-low resource usage.
-*   **A visually breathtaking interface** that adapts to your content.
+- 🎛️ **AURA-X audio engine** — analyses every recording (codec cut-off, noise, dynamics, clipping) and then decides how much to repair or enhance. A great FLAC is left almost untouched; an old low-bitrate MP3 gets real help.
+- 🎚️ **Equalizer, DJ deck, speed control** (⅙× … 6×), sound shaping with your own presets.
+- 🎨 **13 skins** — including four *living* skins (Prism Cathedral, Mycelium Dream, Gravity Ink, Living Light) — and the animated **oscillator** (Inferno fire, needles, flowing wave, starfield, LED …).
+- 🐱 **A ginger kitten** that walks, sits, washes itself, naps and reacts to the beat.
+- ❤️ **Five heart colours** and ⭐ **five star-rating colours** to sort your library at a glance.
+- 🌍 **Interface in English, Polski, Deutsch and Русский.**
+- 🎤 **Song identification** (AcoustID) for tracks with missing tags, converter between MP3 / FLAC / OGG / Opus / WAV / M4A, scheduler, Bluetooth indicator.
 
-### 🌍 Truly Universal & Multilingual
-No matter where you are from or what you speak, EpicLin speaks your language. It is **100% multilingual**, offering a fully localized experience for users around the globe.
-*   **Universal Compatibility:** Plays everything you throw at it.
-*   **Multi-Language Support:** Native translations for a global audience.
+## 📦 Install
 
-### 🎭 Superb Looks, Zero Boredom
-Forget about clunky, grey interfaces. EpicLin is designed to be **iconic**. With a stunning, modern UI, dynamic themes, and smooth animations, it turns watching movies or listening to music into a visual treat. **There is no room for boredom here.**
+| Platform | File | How |
+|---|---|---|
+| Linux (Debian / Ubuntu / Mint) | `AiconicPlayer-PremiumUltra-TRIAL-38d_1.15_amd64.deb` | `sudo dpkg -i <file>` then `sudo apt -f install` if needed |
+| Windows 10 / 11 | `AiconicPlayer-PremiumUltra-TRIAL-38d-Setup-1.15.exe` | double-click the installer |
+| Android 8+ | `AiconicPlayer-PremiumUltra-TRIAL-38d-Android-1.15.apk` | allow installs from this source |
 
-## 📦 Easy Installation (DEB Installer)
+## 🔑 After the 38 days
 
-We know you want to get started instantly. That's why we provide a **dedicated .deb installer** for Debian-based distributions (Ubuntu, Mint, Pop!_OS, etc.). No complex compiling, no dependency nightmares. Just download, install, and enjoy.
+The player locks until you enter an activation code. Open the ⏳ badge, copy your **Device ID** (`AIC-XXXX-XXXX-XXXX`) and contact **EpicWebDesignStudio** — the code is made for your device only and is checked offline. Changing the system date does not extend the trial.
 
-*(Installation instructions will be updated here shortly)*
+## ⚠️ Honest notes
 
-## 🛠️ Contributing
-EpicLin is a project born from passion. If you want to help make the ultimate Linux player, feel free to fork, submit pull requests, or report issues.
+- Version 1.15 is young. The Windows installer was built without a physical Windows test machine — if something does not work, please tell us!
+- Needs GStreamer (installed automatically with the `.deb`).
+
+## ⭐ Reviews & feedback — we'd love to hear from you!
+
+Tried it? **Please tell us what you think** — a short review helps other Linux users find the project, and your ideas decide what comes next:
+
+- 💬 **Leave a review or an idea** in the [Discussions](../../discussions) (your distro, what you liked or missed),
+- 🐛 **Found a bug?** [Open an issue](../../issues/new) — screenshots welcome,
+- ⭐ **Star the repo** and **share it** with a fellow music lover.
+
+## 🙏 Thanks
+
+Thank you to the Linux Mint, Debian and Ubuntu communities, the GTK, GStreamer and PyGObject maintainers, and everybody who tests and spreads the word.
 
 ---
-**Stay tuned. The revolution of Linux media starts now.**
+© 2026 **EpicWebDesignStudio** · contact: tokazib@tutamail.com
